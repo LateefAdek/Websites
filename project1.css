@@ -13,14 +13,15 @@
     align-items: center;
     gap:10px;
     background: linear-gradient(to bottom,#FF7518,#002147);
+    background-size: cover;
 }
 .content{
     display:flex;
     margin:30px;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
+
 input{
     text-align: center;
     padding:10px 25px;
@@ -44,9 +45,7 @@ input{
     background:linear-gradient(to right,#FF7518,#00B9E8);
     color:white;
 }
-.content{
-    background-color: white;
-}
+
 ul{
     position: relative;
     padding:10px 10px;
