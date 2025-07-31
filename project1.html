@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature calculator</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <input id="celsius_input" type="text" placeholder="enter value" onclick="resetinput1()">
+            <button class="dropdownArrow" id="dropdownArrow" onclick="appear()"><img src="arrow-down-sign-to-navigate.png" id="arrow1"></button>
+            <div class="options1">
+                <ul class="dropdownitems">
+                    <li onclick="options(this)">Rankine</li>
+                    <li onclick="options(this)">Celsius</li>
+                    <li onclick="options(this)">Fahrenheit</li>
+                    <li onclick="options(this)">Kelvin</li>
+                </ul>
+            </div>
+        </div>
+        <button class="converter" onclick="tempconv()">Convert</button>
+        <div class="content">
+            <input id="fahrenheit_input" type="text" placeholder="enter value" onclick="resetinput2()">
+            <button class="dropdownArrow" id="dropdownArrow" onclick="appear1()"><img src="arrow-down-sign-to-navigate.png"></button>
+            <div class="options2">
+                <ul class="dropdownitems">
+                    <li onclick="options1(this)">Rankine</li>
+                    <li onclick="options1(this)">Celsius</li>
+                    <li onclick="options1(this)">Fahrenheit</li>
+                    <li onclick="options1(this)">Kelvin</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="project1.js"></script>
+</body>
+</html>
